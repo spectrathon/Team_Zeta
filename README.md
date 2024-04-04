@@ -1,4 +1,3 @@
-<img width="1440" alt="Screenshot 2024-04-04 at 11 12 13 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/1b1c63be-3d07-4315-baee-1029f97af74c">
 # Documentation
 
 ## TradeIn
