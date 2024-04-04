@@ -74,32 +74,6 @@ Start the server
 | Secondary Color | ![#3c82f6](https://via.placeholder.com/10/00b48a?text=+) #3c82f6 |
 
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
-
 ## Demo
 <img width="1440" alt="Screenshot 2024-04-04 at 11 12 13 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/38c9c363-3d65-4ce9-a1b7-f53685bbf051">
 <img width="1440" alt="Screenshot 2024-04-04 at 11 15 34 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/5fea560e-458c-4f59-b997-827c4260aad0">
