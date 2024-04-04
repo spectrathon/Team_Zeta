@@ -1,0 +1,67 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+       colors:{
+        'darkth': '#002233',
+        'darkbg': '#002233',
+        'darktxt': '#fff',
+        'darktxtbg': '#000',
+        'darktxtth': '#fff',
+        'lightth': '#F7F7F7',
+        'lightbg': '#F7F7F7',
+        'lighttxt': '#000',
+        'lighttxtbg': '#fff',
+        'lighttxtth': '#F7F7F7',
+
+        
+        'defaultth': '#4361EE',
+        'defaultbg': '#F7F7F7',
+        'defaultbg2': '#1E1E1E',
+        'defaultbg3': '#5065D3',
+        'defaulttxt': '#000',
+        'defaulttxtbg': '#fff',
+        'defaulttxtth': '#4361EE',
+        'redth':'#D14351',
+        'redbg': '#F7F7F7',
+        'redtxt': '#000',
+        'redtxtbg': '#fff',
+        'redtxtth': '#D14351',
+        'greenth': '#508D69',
+        'greenbg': '#F7F7F7',
+        'greentxt': '#000',
+        'greentxtbg': '#fff',
+        'greentxtth': '#508D69',
+        // 'greenbg': '#508D69',
+        'pinkth': '#F875AA',
+        'pinkbg': '#F7F7F7',
+        'pinktxt': '#000',
+        'pinktxtbg': '#fff',
+        'pinktxtth': '#F875AA',
+        'darkth': '#181818',
+        'darkbg': '#2B2B2B',
+        'darktxt': '#fff',
+        'darktxtbg': '#000',
+        'darktxtth': '#fff',
+        'default-txt' :'#4361EE',
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        noto: ["Noto Sans", "sans-serif"],
+        dosis: ["Dosis", "sans-serif"],
+        charmonman: ["Charmonman", "cursive"],
+      },
+    },
+  },
+  plugins: [],
+};
