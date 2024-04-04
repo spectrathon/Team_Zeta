@@ -1,4 +1,4 @@
-
+<img width="1440" alt="Screenshot 2024-04-04 at 11 12 13 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/1b1c63be-3d07-4315-baee-1029f97af74c">
 # Documentation
 
 ## TradeIn
@@ -74,11 +74,48 @@ Start the server
 | Secondary Color | ![#3c82f6](https://via.placeholder.com/10/00b48a?text=+) #3c82f6 |
 
 
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
 
 ## Demo
+<img width="1440" alt="Screenshot 2024-04-04 at 11 12 13 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/38c9c363-3d65-4ce9-a1b7-f53685bbf051">
+<img width="1440" alt="Screenshot 2024-04-04 at 11 15 34 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/5fea560e-458c-4f59-b997-827c4260aad0">
 
-Insert gif or link to demo
+<img width="1440" alt="Screenshot 2024-04-04 at 11 13 02 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/6601316a-15c6-427d-8b66-78cef1bc1c6c">
+<img width="1440" alt="Screenshot 2024-04-04 at 11 13 54 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/08e151b2-2953-4e59-b76b-e0be5607d291">
+<img width="1440" alt="Screenshot 2024-04-04 at 11 16 10 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/9a41be2e-ba8b-4f44-9afd-286c08f8472a">
 
+<img width="1440" alt="Screenshot 2024-04-04 at 11 11 31 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/cb4a162f-17c5-43bc-acfa-0966849e5e6a">
+
+<img width="1440" alt="Screenshot 2024-04-04 at 11 11 22 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/1bc0e552-c2f6-4e27-afa4-8dadf772fef1">
+
+<img width="1440" alt="Screenshot 2024-04-04 at 11 13 32 AM" src="https://github.com/spectrathon/Team_Zeta/assets/98628762/3113adc5-8ceb-40a1-8a07-cc54928519b2">
+
+![Uploading Screenshot 2024-04-04 at 11.06.27 AM.png…]()
+![Uploading Screenshot 2024-04-04 at 11.06.34 AM.png…]()
 
 ## Authors
 
